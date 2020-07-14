@@ -4,6 +4,7 @@
       <h1>Sample Vue.js SVG Icon System</h1>
       <app-typography-icon />
       <app-animated-icon />
+      <icon-base icon-name="user" width="64" height="64" icon-color="#5434ad"><icon-user /></icon-base>
     </main>
   </div>
 </template>
@@ -11,11 +12,14 @@
 <script>
 import AppTypographyIcon from './components/AppTypographyIcon'
 import AppAnimatedIcon from './components/AppAnimatedIcon'
-
+import IconBase from './components/IconBase'
+import IconUser from './components/icons/IconUser.vue'
 export default {
   components: {
     AppTypographyIcon,
-    AppAnimatedIcon
+    AppAnimatedIcon,
+    IconBase,
+    IconUser
   }
 }
 </script>
