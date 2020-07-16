@@ -5,6 +5,8 @@
       <app-typography-icon />
       <app-animated-icon />
       <icon-base icon-name="user" width="64" height="64" icon-color="#5434ad"><icon-user /></icon-base>
+      <icon-base icon-name="user" width="64" height="64" icon-color="#5434ad"><icon-github /></icon-base>
+      <icon-base icon-name="user" width="64" height="64" icon-color="#5434ad"><icon-codepen /></icon-base>
     </main>
   </div>
 </template>
@@ -14,12 +16,16 @@ import AppTypographyIcon from './components/AppTypographyIcon'
 import AppAnimatedIcon from './components/AppAnimatedIcon'
 import IconBase from './components/IconBase'
 import IconUser from './components/icons/IconUser.vue'
+import IconGithub from './components/social/IconGithub'
+import IconCodepen from './components/social/IconCodepen'
 export default {
   components: {
     AppTypographyIcon,
     AppAnimatedIcon,
     IconBase,
-    IconUser
+    IconUser,
+    IconGithub,
+    IconCodepen
   }
 }
 </script>
