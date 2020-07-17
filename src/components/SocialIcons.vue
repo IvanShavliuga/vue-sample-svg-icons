@@ -4,6 +4,7 @@
     <icon-base class="icons__image" icon-name="codepen" width="64" height="64" icon-color="#5434ad"><icon-codepen /></icon-base>
     <icon-base class="icons__image" icon-name="like" width="64" height="64" icon-color="#5434ad"><icon-like /></icon-base>
     <icon-base class="icons__image" icon-name="vk" width="64" height="64" icon-color="#5434ad"><icon-vk /></icon-base>
+    <icon-base class="icons__image" icon-name="android" width="64" height="64" icon-color="#5434ad"><icon-android /></icon-base>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import IconGithub from './social/IconGithub'
 import IconCodepen from './social/IconCodepen'
 import IconLike from './social/IconLike'
 import IconVk from './social/IconVk'
+import IconAndroid from './social/IconAndroid'
 import IconBase from './IconBase'
 export default {
   name: 'SocialIcons',
@@ -20,7 +22,8 @@ export default {
     IconGithub,
     IconCodepen,
     IconLike,
-    IconVk
+    IconVk,
+    IconAndroid
   }
 }
 </script>
