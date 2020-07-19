@@ -6,6 +6,7 @@
     <icon-base class="icons__image" icon-name="vk" width="64" height="64" icon-color="#5434ad"><icon-vk /></icon-base>
     <icon-base class="icons__image" icon-name="android" width="64" height="64" icon-color="#5434ad"><icon-android /></icon-base>
     <icon-base class="icons__image" icon-name="linux" width="64" height="64" icon-color="#5434ad"><icon-linux /></icon-base>
+    <icon-base class="icons__image" icon-name="ubuntu" width="64" height="64" icon-color="#5434ad"><icon-ubuntu /></icon-base>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import IconLike from './social/IconLike'
 import IconVk from './social/IconVk'
 import IconAndroid from './social/IconAndroid'
 import IconLinux from './social/IconLinux'
+import IconUbuntu from './social/IconUbuntu'
 import IconBase from './IconBase'
 export default {
   name: 'SocialIcons',
@@ -26,7 +28,8 @@ export default {
     IconLike,
     IconVk,
     IconAndroid,
-    IconLinux
+    IconLinux,
+    IconUbuntu
   }
 }
 </script>
