@@ -9,6 +9,7 @@
     <icon-base class="icons__image" icon-name="ubuntu" width="64" height="64" icon-color="#5434ad"><icon-ubuntu /></icon-base>
     <icon-base class="icons__image" icon-name="Windows" width="64" height="64" icon-color="#5434ad"><icon-Windows /></icon-base>
     <icon-base class="icons__image" icon-name="chrome" width="64" height="64" icon-color="#5434ad"><icon-chrome /></icon-base>
+    <icon-base class="icons__image" icon-name="firefox" width="64" height="64" icon-color="#5434ad"><icon-firefox /></icon-base>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import IconLinux from './social/IconLinux'
 import IconUbuntu from './social/IconUbuntu'
 import IconWindows from './social/IconWindows'
 import IconChrome from './social/IconChrome'
+import IconChrome from './social/IconFirefox'
 import IconBase from './IconBase'
 export default {
   name: 'SocialIcons',
@@ -35,7 +37,8 @@ export default {
     IconLinux,
     IconUbuntu,
     IconWindows,
-    IconChrome
+    IconChrome,
+    IconFirefox
   }
 }
 </script>
