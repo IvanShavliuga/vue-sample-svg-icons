@@ -12,6 +12,7 @@
     <icon-base class="icons__image" icon-name="firefox" width="64" height="64" icon-color="#5434ad"><icon-firefox /></icon-base>
     <icon-base class="icons__image" icon-name="wiki" width="64" height="64" icon-color="#5434ad"><icon-wiki /></icon-base>
     <icon-base class="icons__image" icon-name="linux rosa" width="64" height="64" icon-color="#5434ad"><icon-linux-rosa /></icon-base>
+    <icon-base class="icons__image" icon-name="icon radio" width="64" height="64" icon-color="#5434ad"><icon-radio /></icon-base>
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import IconChrome from './social/IconChrome'
 import IconFirefox from './social/IconFirefox'
 import IconWiki from './social/IconWiki'
 import IconLinuxRosa from './social/IconLinuxRosa'
+import IconRadio from './social/IconRadio'
 import IconBase from './IconBase'
 export default {
   name: 'SocialIcons',
@@ -44,7 +46,8 @@ export default {
     IconChrome,
     IconFirefox,
     IconWiki,
-    IconLinuxRosa
+    IconLinuxRosa,
+    IconRadio
   }
 }
 </script>
