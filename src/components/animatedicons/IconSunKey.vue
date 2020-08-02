@@ -4,7 +4,7 @@
   xmlns="http://www.w3.org/2000/svg"
   width="160"
   height="160"
-  viewBox="0 0 160 160"
+  viewBox="0 0 100 100"
   aria-labelledby="palette"
   role="presentation"
   >
@@ -58,7 +58,7 @@
     <rect x="48" y="78" width="5" height="2" fill="#00D9B3"/>
   </g>
   <g ref="planet" style="opacity: 0;">
-    <circle cx="23" cy="63" r="30" fill="#23233"/>
+    <circle cx="27" cy="63" r="30" fill="#23233"/>
   </g>
 </svg>
 </template>
@@ -85,14 +85,18 @@ export default {
           ease: Back.easeOut
         })
         .to(this.$refs.planet, 0.1, {
+          x: 4,
+          y: -0.3,
+          ease: Back.easeOut
+        })
+        .to(this.$refs.planet, 0.1, {
           opacity: 1,
           delay: 0.05,
           ease: Back.easeOut
         })
         .to(this.$refs.sun, 0.1, {
           opacity: 1,
-          delay: 0.05,
-          fill: '#caca10',
+          fill: '#ffffae',
           ease: Back.easeOut
         })
         .to(this.$refs.radio, 0.01, {
@@ -122,6 +126,11 @@ export default {
           y: 0.3,
           ease: Back.easeOut
         })
+        .to(this.$refs.sun, 0.1, {
+          opacity: 1,
+          fill: '#fafa15',
+          ease: Back.easeOut
+        })
         .to(this.$refs.radio, 0.01, {
           opacity: 0.8,
           ease: Back.easeOut
@@ -134,18 +143,13 @@ export default {
           opacity: 0,
           ease: Back.easeOut
         })
+
         .to(this.$refs.key, 0.1, {
           opacity: 1,
           ease: Back.easeOut
         })
-        .to(this.$refs.sun, 0.1, {
-          opacity: 1,
-          delay: 0.05,
-          fill: '#fafa15',
-          ease: Back.easeOut
-        })
         .to(this.$refs.planet, 0.1, {
-          x: 0,
+          x: 4,
           y: -0.3,
           ease: Back.easeOut
         })
