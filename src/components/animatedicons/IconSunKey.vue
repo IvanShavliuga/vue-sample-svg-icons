@@ -58,7 +58,7 @@
     <rect x="48" y="78" width="5" height="2" fill="#00D9B3"/>
   </g>
   <g ref="planet" style="opacity: 0;">
-    <circle cx="23" cy="65" r="25" fill="#23233"/>
+    <circle cx="23" cy="63" r="30" fill="#23233"/>
   </g>
 </svg>
 </template>
