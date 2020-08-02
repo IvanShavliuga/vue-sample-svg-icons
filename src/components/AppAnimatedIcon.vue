@@ -7,6 +7,7 @@
       <icon-heart-face />
       <icon-watch />
       <icon-palette />
+      <icon-sun-key/>
     </section>
 </template>
 
@@ -15,13 +16,15 @@ import IconWatch from './animatedicons/IconWatch.vue'
 import IconPalette from './animatedicons/IconPalette.vue'
 import IconScissors from './animatedicons/IconScissors.vue'
 import IconHeartFace from './animatedicons/IconHeartFace.vue'
+import IconSunKey from './animatedicons/IconSunKey'
 
 export default {
   components: {
     IconWatch,
     IconPalette,
     IconScissors,
-    IconHeartFace
+    IconHeartFace,
+    IconSunKey
   }
 }
 </script>
