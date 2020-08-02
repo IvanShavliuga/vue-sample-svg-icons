@@ -8,6 +8,7 @@
       <icon-watch />
       <icon-palette />
       <icon-sun-key/>
+      <icon-sun-key-login/>
     </section>
 </template>
 
@@ -17,6 +18,7 @@ import IconPalette from './animatedicons/IconPalette.vue'
 import IconScissors from './animatedicons/IconScissors.vue'
 import IconHeartFace from './animatedicons/IconHeartFace.vue'
 import IconSunKey from './animatedicons/IconSunKey'
+import IconSunKeyLogin from './animatedicons/IconSunKeyLogin'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     IconPalette,
     IconScissors,
     IconHeartFace,
-    IconSunKey
+    IconSunKey,
+    IconSunKeyLogin
   }
 }
 </script>
