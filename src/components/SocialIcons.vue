@@ -14,6 +14,7 @@
     <icon-base class="icons__image" icon-name="linux rosa" width="64" height="64" icon-color="#5434ad"><icon-linux-rosa /></icon-base>
     <icon-base class="icons__image" icon-name="icon radio" width="64" height="64" icon-color="#5434ad"><icon-radio /></icon-base>
     <icon-base class="icons__image" icon-name="icon web" width="64" height="64" icon-color="#5434ad"><icon-web /></icon-base>
+    <icon-base class="icons__image" icon-name="icon aim" width="64" height="64" icon-color="#5434ad"><icon-aim /></icon-base>
   </div>
 </template>
 
@@ -32,6 +33,7 @@ import IconWiki from './social/IconWiki'
 import IconLinuxRosa from './social/IconLinuxRosa'
 import IconRadio from './social/IconRadio'
 import IconWeb from './social/IconWeb'
+import IconAim from './social/IconAim'
 import IconBase from './IconBase'
 export default {
   name: 'SocialIcons',
@@ -50,7 +52,8 @@ export default {
     IconWiki,
     IconLinuxRosa,
     IconRadio,
-    IconWeb
+    IconWeb,
+    IconAim
   }
 }
 </script>
