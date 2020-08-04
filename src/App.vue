@@ -5,7 +5,6 @@
       <app-typography-icon />
       <app-animated-icon />
       <social-icons/>
-      <icon-base class="i-user" icon-name="user" width="64" height="64" icon-color="#5434ad"><icon-user /></icon-base>
     </main>
   </div>
 </template>
@@ -13,16 +12,13 @@
 <script>
 import AppTypographyIcon from './components/AppTypographyIcon'
 import AppAnimatedIcon from './components/AppAnimatedIcon'
-import IconBase from './components/IconBase'
 import SocialIcons from './components/SocialIcons'
-import IconUser from './components/icons/IconUser.vue'
+
 export default {
   components: {
     AppTypographyIcon,
     AppAnimatedIcon,
-    SocialIcons,
-    IconBase,
-    IconUser
+    SocialIcons
   }
 }
 </script>
