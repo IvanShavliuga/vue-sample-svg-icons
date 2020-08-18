@@ -5,6 +5,7 @@
       <app-typography-icon />
       <app-animated-icon />
       <social-icons/>
+      <Social-icons-list/>
     </main>
   </div>
 </template>
@@ -13,12 +14,14 @@
 import AppTypographyIcon from './components/AppTypographyIcon'
 import AppAnimatedIcon from './components/AppAnimatedIcon'
 import SocialIcons from './components/SocialIcons'
+import SocialIconsList from './components/SocialIconsList'
 
 export default {
   components: {
     AppTypographyIcon,
     AppAnimatedIcon,
-    SocialIcons
+    SocialIcons,
+    SocialIconsList
   }
 }
 </script>
