@@ -4,7 +4,8 @@
       <h1>Sample Vue.js SVG Icon System</h1>
       <app-typography-icon />
       <app-animated-icon />
-      <icon-base icon-name="user" width="64" height="64" icon-color="#5434ad"><icon-user /></icon-base>
+      <social-icons/>
+      <Social-icons-list/>
     </main>
   </div>
 </template>
@@ -12,19 +13,23 @@
 <script>
 import AppTypographyIcon from './components/AppTypographyIcon'
 import AppAnimatedIcon from './components/AppAnimatedIcon'
-import IconBase from './components/IconBase'
-import IconUser from './components/icons/IconUser.vue'
+import SocialIcons from './components/SocialIcons'
+import SocialIconsList from './components/SocialIconsList'
+
 export default {
   components: {
     AppTypographyIcon,
     AppAnimatedIcon,
-    IconBase,
-    IconUser
+    SocialIcons,
+    SocialIconsList
   }
 }
 </script>
 
 <style>
+.i-user {
+  margin: 20px;
+}
 body,
 html {
   margin: 0;

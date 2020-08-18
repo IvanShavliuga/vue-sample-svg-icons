@@ -27,6 +27,7 @@
       <icon-base icon-name="envelope"><icon-envelope /></icon-base>
       <br>
       <icon-base><icon-box /></icon-base>
+      <icon-base icon-name="user"><icon-user /></icon-base>
       You can use whatever icon you want and keep the base consistent with slots
     </p>
   </section>
@@ -41,6 +42,7 @@ import IconImage from './icons/IconImage.vue'
 import IconWrite from './icons/IconWrite.vue'
 import IconMoon from './icons/IconMoon.vue'
 import IconBox from './icons/IconBox.vue'
+import IconUser from './icons/IconUser.vue'
 
 export default {
   components: {
@@ -51,7 +53,8 @@ export default {
     IconImage,
     IconWrite,
     IconMoon,
-    IconBox
+    IconBox,
+    IconUser
   }
 }
 </script>
