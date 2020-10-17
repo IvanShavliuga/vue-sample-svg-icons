@@ -2,25 +2,18 @@
   <div id="app">
     <main>
       <h1>Sample Vue.js SVG Icon System</h1>
-      <app-typography-icon />
-      <app-animated-icon />
       <social-icons/>
       <Social-icons-list/>
+      <Emoji-icons-list/>
+      <Socialbar/>
     </main>
   </div>
 </template>
 
 <script>
-import AppTypographyIcon from './components/AppTypographyIcon'
-import AppAnimatedIcon from './components/AppAnimatedIcon'
-import SocialIcons from './components/SocialIcons'
 import SocialIconsList from './components/SocialIconsList'
-
 export default {
   components: {
-    AppTypographyIcon,
-    AppAnimatedIcon,
-    SocialIcons,
     SocialIconsList
   }
 }
@@ -42,7 +35,7 @@ html {
   text-align: center;
   color: #222;
   font-weight: 300;
-  background: #f1efef;
+  background: #fff;
   width: 100vw;
   height: 100vh;
   font-size: 17px;

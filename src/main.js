@@ -6,6 +6,7 @@ import App from './App'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
+Vue.component('Socialbar', () => import('./components/IconSocialBar.vue'))
 new Vue({
   render: h => h(App)
 }).$mount('#app')
