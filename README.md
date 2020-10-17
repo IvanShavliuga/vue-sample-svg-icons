@@ -2,6 +2,8 @@
 
 A demo to show how I prefer to set up an SVG icon system in Vue.js. You can see <a href="https://sdras.github.io/vue-sample-svg-icons/">a demo live here</a>. You don't have to do it this way, it's an opinionated example. More details for _why_ it's set up in this manner in the Vue Cookbook (coming this week).
 https://codepen.io/ivanshavliuga/pen/OJXNaQX
+https://IvanShavliuga.github.io/vuesvgicons/
+
 
 ## Project setup
 ```
