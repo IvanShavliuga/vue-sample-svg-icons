@@ -8,6 +8,7 @@
     <icon-base class="icons__image" icon-name="twitter" width="64" height="64" icon-color="#5434ad"><socialtwitter/></icon-base>
     <icon-base class="icons__image" icon-name="vk" width="64" height="64" icon-color="#5434ad"><socialvk/></icon-base>
     <icon-base class="icons__image" icon-name="wechat" width="64" height="64" icon-color="#5434ad"><socialwechat/></icon-base>
+    <icon-base class="icons__image" icon-name="telegram" width="64" height="64" icon-color="#5434ad"><socialtelegram/></icon-base>
   </div>
 </template>
 <script>
@@ -20,6 +21,7 @@ import Socialtumblr from './social/tumblr.vue'
 import Socialtwitter from './social/twitter.vue'
 import Socialvk from './social/vk.vue'
 import Socialwechat from './social/wechat.vue'
+import Socialtelegram from './social/telegram.vue'
 export default {
   components: {
     IconBase,
@@ -30,7 +32,8 @@ export default {
     Socialtumblr,
     Socialtwitter,
     Socialvk,
-    Socialwechat
+    Socialwechat,
+    Socialtelegram
   }
 }
 </script>

@@ -1,20 +1,14 @@
 <template>
-  <div id="app">
-    <main>
-      <h1>Sample Vue.js SVG Icon System</h1>
-      <social-icons/>
-      <Social-icons-list/>
-      <Emoji-icons-list/>
-      <Socialbar/>
-    </main>
+  <div id="socialbar">
+    <Socialbar/>
   </div>
 </template>
 
 <script>
-import SocialIconsList from './components/SocialIconsList'
+import Socialbar from './components/IconSocialBar'
 export default {
   components: {
-    SocialIconsList
+    Socialbar
   }
 }
 </script>
