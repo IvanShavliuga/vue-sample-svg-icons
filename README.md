@@ -2,7 +2,10 @@
 
 A demo to show how I prefer to set up an SVG icon system in Vue.js. You can see <a href="https://sdras.github.io/vue-sample-svg-icons/">a demo live here</a>. You don't have to do it this way, it's an opinionated example. More details for _why_ it's set up in this manner in the Vue Cookbook (coming this week).
 
-![Documentation site](https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/screendocs.jpg "Docs demo")
+<iframe height="265" style="width: 100%;" scrolling="no" title="My vue svg icons" src="https://codepen.io/ivanshavliuga/embed/OJXNaQX?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/ivanshavliuga/pen/OJXNaQX'>My vue svg icons</a> by Ivan Shavliuga
+  (<a href='https://codepen.io/ivanshavliuga'>@ivanshavliuga</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## Project setup
 ```
